@@ -3,7 +3,7 @@
     --azul-dnc: #0C70F2;
     --preto-dnc: #303030;
     --cinza-hover: #C9C9C9;
-    
+
     --fonte-padrao: 'inter';
 }
     body{
@@ -281,5 +281,14 @@ section{
 
     .checkbox-itens label{
         font-size: 17px;
+    }
+
+    footer .linha1{
+        flex-direction: column;
+    }
+
+    footer .endereco{
+        width: 95%;
+        margin-bottom: 20px;
     }
 }
